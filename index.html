@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+
+    <script>
+        function gerarTabuada() {
+            var numero = parseInt(document.getElementById('numero').value);
+
+            var tabela = document.getElementById('tabela-tabuada');
+
+            tabela.innerHTML = ""; //limpar a tebla antes de greal a outra    
+
+            //gerar tabuada
+
+            for (var i = 1; i <= 10; i++) {
+
+                var resultado = numero * i;
+
+                var linha = "<tr><td>" + numero + " X " + i + "</td><td>" + resultado + "</td></tr>";
+
+                tabela.innerHTML += linha
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div>
+        <h1>Tabuada</h1>
+
+        <p>Digite um valor para gerar a tabuada</p>
+
+        <input type="text" name="" id="numero" placeholder="Insira um valor">
+
+        <button onclick="gerarTabuada()">Gerar Tabuada</button>
+
+        <table id="tabela-tabuada"></table>
+
+        <button class="alterar" id="toggle-mode">Alternar modo</button>
+
+
+    </div>
+
+    <script src="vargas.js"></script>
+
+</body>
+
+</html>

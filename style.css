@@ -1,0 +1,85 @@
+@font-face {
+    font-family: fonte1;
+    src: url(font/PaidStampDemoRegular.ttf)
+}
+
+body {
+    text-align: center;
+
+    background-image: url(https://thumbs.dreamstime.com/b/papel-de-parede-matem%C3%A1tico-sem-emenda-4249501.jpg);
+}
+
+div {
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+
+    height: 89vh;
+}
+
+h1 {
+    font-family: fonte1;
+    font-size: 40px;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: fonte1;
+}
+
+input {
+    padding: 4px;
+    border-radius: 10px;
+}
+
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+table {
+    margin-left: 46%;
+    border: solid #000000;
+    border-style: dashed;
+    margin-top: 20px;
+}
+
+
+.alterar {
+    top: 440px;
+    right: 10%;
+    position: fixed;
+    border-radius: 10px;
+}
+
+.dark-mode {
+     background-image: url(https://cdn.shopify.com/s/files/1/0305/4075/9177/products/papel-de-parede-adesivo-matematica-escola-59380100-962384.jpg?v=1643339140);
+}
+
+.dark-mode div {
+    background-color: #000000;
+}
+
+.dark-mode h1 {
+    color: #ffffff;
+}
+
+.dark-mode p {
+    color: #ffffff;
+}
+
+.dark-mode table {
+    color: #ffffff;
+    border: solid #ffffff;
+}
+
